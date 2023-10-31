@@ -44,6 +44,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CircularArray.cs" />
+    <Compile Include="DoublyLinkedList.cs" />
+    <Compile Include="DoublyLinkedListNode.cs" />
     <Compile Include="DynamicArray1.cs" />
     <Compile Include="DynamicArray2.cs" />
     <Compile Include="Program.cs" />

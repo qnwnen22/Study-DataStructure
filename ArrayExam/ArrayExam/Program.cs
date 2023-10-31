@@ -11,6 +11,7 @@ namespace ArrayExam
         static void Main(string[] args)
         {
             SinglyLinkedList<object>.ShowExample();
+            DoublyLinkedList<object>.ShowExample();
 
         }
     }
