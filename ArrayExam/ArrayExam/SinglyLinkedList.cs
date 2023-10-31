@@ -106,6 +106,30 @@ namespace ArrayExam
             var list = new SinglyLinkedList<int>();
 
             // 리스트에 0 ~ 4 추가
+            for (int i = 0; i < 5; i++)
+            {
+                list.Add(new SinglyLinckedListNode<int>(i));
+            }
+
+            // Index가 2인 요소 삭제
+            var node = list.GetNode(2);
+            list.Remove(node);
+
+            // Index가 1인 요소 가져오기
+            node = list.GetNode(1);
+            // Index가 1인 요소 뒤에 100 삽입
+            list.AddAfter(node, new SinglyLinckedListNode<int>(100));
+
+            // 리스트 카운트 체크
+            int count = list.Count();
+
+            // 전체 리스트 출력
+            // 결과 : 0 1 100 3 4
+            for (int i = 0; i < count; i++)
+            {
+                var n = list.GetNode(i);
+                Console.WriteLine(n.Data);
+            }
 
         }
     }
