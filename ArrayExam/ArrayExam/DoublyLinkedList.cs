@@ -98,7 +98,11 @@ namespace ArrayExam
             return cnt;
         }
 
-
+        /// <summary>
+        /// 이중 연결 리스트의 기본 기능을 테스트 하기 위한 코드
+        /// 이주 연결 리스트에 0, 1, 2, 3, 4 요소를 추가하고 중간의 2를 삭제하고
+        /// 대신 100을 넣은 후, 전체 리스트를 순방향과 역방향으로 출력하는 예제
+        /// </summary>
         public static void ShowExample()
         {
             // 정수형 이중 연결 리스트 생성
