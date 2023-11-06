@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{EB315714-B45A-4E5A-BB70-46AB9BCAA548}</ProjectGuid>
+    <ProjectGuid>{3EC6BDD7-0432-48CE-A86A-D79A807758F5}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>ArrayExam</RootNamespace>
-    <AssemblyName>ArrayExam</AssemblyName>
+    <RootNamespace>DataStructure</RootNamespace>
+    <AssemblyName>DataStructure</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -46,13 +46,14 @@
     <Compile Include="Array\CircularArray.cs" />
     <Compile Include="Array\DynamicArray1.cs" />
     <Compile Include="Array\DynamicArray2.cs" />
-    <Compile Include="CircularLinkedList.cs" />
+    <Compile Include="LinkedList\CircularLinkedList.cs" />
+    <Compile Include="LinkedList\DotnetLinkedListExam.cs" />
     <Compile Include="LinkedList\DoublyLinkedList.cs" />
     <Compile Include="LinkedList\DoublyLinkedListNode.cs" />
-    <Compile Include="Program.cs" />
-    <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="LinkedList\SinglyLinkedList.cs" />
     <Compile Include="LinkedList\SinglyLinkedListNode.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
